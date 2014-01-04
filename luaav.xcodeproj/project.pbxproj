@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94678BDC1878E8DC00B695F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94678BDB1878E8DC00B695F2 /* main.cpp */; };
+		94678BDE1878E8DC00B695F2 /* luaav_cli.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94678BDD1878E8DC00B695F2 /* luaav_cli.1 */; };
+		94678BE41878E8F300B695F2 /* libluaav.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94ED1DA11877C95800A213E2 /* libluaav.a */; };
+		94ED1DBC1877D35B00A213E2 /* lfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DA91877D33E00A213E2 /* lfs.cpp */; };
+		94ED1DBD1877D35B00A213E2 /* lpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAA1877D33E00A213E2 /* lpeg.c */; };
+		94ED1DBE1877D35B00A213E2 /* lpeg.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAB1877D33E00A213E2 /* lpeg.h */; };
+		94ED1DBF1877D35B00A213E2 /* lpeg_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAC1877D33E00A213E2 /* lpeg_list.cpp */; };
+		94ED1DC01877D35B00A213E2 /* lua_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAD1877D33E00A213E2 /* lua_array.cpp */; };
+		94ED1DC11877D35B00A213E2 /* luaav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAE1877D33E00A213E2 /* luaav.cpp */; };
+		94ED1DC21877D35B00A213E2 /* luaav_audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DAF1877D33E00A213E2 /* luaav_audio.cpp */; };
+		94ED1DC31877D35B00A213E2 /* luaav_audio_jit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB01877D33E00A213E2 /* luaav_audio_jit.cpp */; };
+		94ED1DC41877D35B00A213E2 /* luaav_audio_reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB11877D33E00A213E2 /* luaav_audio_reverb.cpp */; };
+		94ED1DC51877D35B00A213E2 /* luaav_audio_soundfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB21877D33E00A213E2 /* luaav_audio_soundfile.cpp */; };
+		94ED1DC61877D35B00A213E2 /* luaav_doc.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB31877D33E00A213E2 /* luaav_doc.h */; };
+		94ED1DC71877D35B00A213E2 /* luaav_internal_util.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB41877D33E00A213E2 /* luaav_internal_util.h */; };
+		94ED1DC81877D35B00A213E2 /* luaav_midi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB51877D33E00A213E2 /* luaav_midi.cpp */; };
+		94ED1DC91877D35B00A213E2 /* luaav_osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB61877D33E00A213E2 /* luaav_osc.cpp */; };
+		94ED1DCA1877D35B00A213E2 /* luaav_revision.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB71877D33E00A213E2 /* luaav_revision.h */; };
+		94ED1DCB1877D35B00A213E2 /* luaav_scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB81877D33E00A213E2 /* luaav_scheduler.cpp */; };
+		94ED1DCC1877D35B00A213E2 /* RtError.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DB91877D33E00A213E2 /* RtError.h */; };
+		94ED1DCD1877D35B00A213E2 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DBA1877D33E00A213E2 /* RtMidi.cpp */; };
+		94ED1DCE1877D35B00A213E2 /* RtMidi.h in Sources */ = {isa = PBXBuildFile; fileRef = 94ED1DBB1877D33E00A213E2 /* RtMidi.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94678BE21878E8EC00B695F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94ED1D991877C95800A213E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94ED1DA01877C95800A213E2;
+			remoteInfo = libluaav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94678BD71878E8DC00B695F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				94678BDE1878E8DC00B695F2 /* luaav_cli.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		94678BD91878E8DC00B695F2 /* luaav-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "luaav-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94678BDB1878E8DC00B695F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		94678BDD1878E8DC00B695F2 /* luaav_cli.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = luaav_cli.1; sourceTree = "<group>"; };
+		94ED1DA11877C95800A213E2 /* libluaav.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libluaav.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ED1DA91877D33E00A213E2 /* lfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lfs.cpp; sourceTree = "<group>"; };
+		94ED1DAA1877D33E00A213E2 /* lpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpeg.c; sourceTree = "<group>"; };
+		94ED1DAB1877D33E00A213E2 /* lpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpeg.h; sourceTree = "<group>"; };
+		94ED1DAC1877D33E00A213E2 /* lpeg_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lpeg_list.cpp; sourceTree = "<group>"; };
+		94ED1DAD1877D33E00A213E2 /* lua_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lua_array.cpp; sourceTree = "<group>"; };
+		94ED1DAE1877D33E00A213E2 /* luaav.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav.cpp; sourceTree = "<group>"; };
+		94ED1DAF1877D33E00A213E2 /* luaav_audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_audio.cpp; sourceTree = "<group>"; };
+		94ED1DB01877D33E00A213E2 /* luaav_audio_jit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_audio_jit.cpp; sourceTree = "<group>"; };
+		94ED1DB11877D33E00A213E2 /* luaav_audio_reverb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_audio_reverb.cpp; sourceTree = "<group>"; };
+		94ED1DB21877D33E00A213E2 /* luaav_audio_soundfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_audio_soundfile.cpp; sourceTree = "<group>"; };
+		94ED1DB31877D33E00A213E2 /* luaav_doc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luaav_doc.h; sourceTree = "<group>"; };
+		94ED1DB41877D33E00A213E2 /* luaav_internal_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luaav_internal_util.h; sourceTree = "<group>"; };
+		94ED1DB51877D33E00A213E2 /* luaav_midi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_midi.cpp; sourceTree = "<group>"; };
+		94ED1DB61877D33E00A213E2 /* luaav_osc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_osc.cpp; sourceTree = "<group>"; };
+		94ED1DB71877D33E00A213E2 /* luaav_revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luaav_revision.h; sourceTree = "<group>"; };
+		94ED1DB81877D33E00A213E2 /* luaav_scheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luaav_scheduler.cpp; sourceTree = "<group>"; };
+		94ED1DB91877D33E00A213E2 /* RtError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		94ED1DBA1877D33E00A213E2 /* RtMidi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		94ED1DBB1877D33E00A213E2 /* RtMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94678BD61878E8DC00B695F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94678BE41878E8F300B695F2 /* libluaav.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED1D9E1877C95800A213E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94678BDA1878E8DC00B695F2 /* luaav-cli */ = {
+			isa = PBXGroup;
+			children = (
+				94678BDB1878E8DC00B695F2 /* main.cpp */,
+				94678BDD1878E8DC00B695F2 /* luaav_cli.1 */,
+			);
+			path = "luaav-cli";
+			sourceTree = "<group>";
+		};
+		94ED1D981877C95800A213E2 = {
+			isa = PBXGroup;
+			children = (
+				94ED1DA81877D33E00A213E2 /* src */,
+				94678BDA1878E8DC00B695F2 /* luaav-cli */,
+				94ED1DA21877C95800A213E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94ED1DA21877C95800A213E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94ED1DA11877C95800A213E2 /* libluaav.a */,
+				94678BD91878E8DC00B695F2 /* luaav-cli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94ED1DA81877D33E00A213E2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				94ED1DA91877D33E00A213E2 /* lfs.cpp */,
+				94ED1DAA1877D33E00A213E2 /* lpeg.c */,
+				94ED1DAB1877D33E00A213E2 /* lpeg.h */,
+				94ED1DAC1877D33E00A213E2 /* lpeg_list.cpp */,
+				94ED1DAD1877D33E00A213E2 /* lua_array.cpp */,
+				94ED1DAE1877D33E00A213E2 /* luaav.cpp */,
+				94ED1DAF1877D33E00A213E2 /* luaav_audio.cpp */,
+				94ED1DB01877D33E00A213E2 /* luaav_audio_jit.cpp */,
+				94ED1DB11877D33E00A213E2 /* luaav_audio_reverb.cpp */,
+				94ED1DB21877D33E00A213E2 /* luaav_audio_soundfile.cpp */,
+				94ED1DB31877D33E00A213E2 /* luaav_doc.h */,
+				94ED1DB41877D33E00A213E2 /* luaav_internal_util.h */,
+				94ED1DB51877D33E00A213E2 /* luaav_midi.cpp */,
+				94ED1DB61877D33E00A213E2 /* luaav_osc.cpp */,
+				94ED1DB71877D33E00A213E2 /* luaav_revision.h */,
+				94ED1DB81877D33E00A213E2 /* luaav_scheduler.cpp */,
+				94ED1DB91877D33E00A213E2 /* RtError.h */,
+				94ED1DBA1877D33E00A213E2 /* RtMidi.cpp */,
+				94ED1DBB1877D33E00A213E2 /* RtMidi.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94ED1D9F1877C95800A213E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94678BD81878E8DC00B695F2 /* luaav-cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94678BE11878E8DC00B695F2 /* Build configuration list for PBXNativeTarget "luaav-cli" */;
+			buildPhases = (
+				94678BD51878E8DC00B695F2 /* Sources */,
+				94678BD61878E8DC00B695F2 /* Frameworks */,
+				94678BD71878E8DC00B695F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94678BE31878E8EC00B695F2 /* PBXTargetDependency */,
+			);
+			name = "luaav-cli";
+			productName = "luaav-cli";
+			productReference = 94678BD91878E8DC00B695F2 /* luaav-cli */;
+			productType = "com.apple.product-type.tool";
+		};
+		94ED1DA01877C95800A213E2 /* luaav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94ED1DA51877C95800A213E2 /* Build configuration list for PBXNativeTarget "luaav" */;
+			buildPhases = (
+				94ED1D9D1877C95800A213E2 /* Sources */,
+				94ED1D9E1877C95800A213E2 /* Frameworks */,
+				94ED1D9F1877C95800A213E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = luaav;
+			productName = libluaav;
+			productReference = 94ED1DA11877C95800A213E2 /* libluaav.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94ED1D991877C95800A213E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LuaAV;
+			};
+			buildConfigurationList = 94ED1D9C1877C95800A213E2 /* Build configuration list for PBXProject "luaav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94ED1D981877C95800A213E2;
+			productRefGroup = 94ED1DA21877C95800A213E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94ED1DA01877C95800A213E2 /* luaav */,
+				94678BD81878E8DC00B695F2 /* luaav-cli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94678BD51878E8DC00B695F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94678BDC1878E8DC00B695F2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED1D9D1877C95800A213E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED1DBC1877D35B00A213E2 /* lfs.cpp in Sources */,
+				94ED1DBD1877D35B00A213E2 /* lpeg.c in Sources */,
+				94ED1DBE1877D35B00A213E2 /* lpeg.h in Sources */,
+				94ED1DBF1877D35B00A213E2 /* lpeg_list.cpp in Sources */,
+				94ED1DC01877D35B00A213E2 /* lua_array.cpp in Sources */,
+				94ED1DC11877D35B00A213E2 /* luaav.cpp in Sources */,
+				94ED1DC21877D35B00A213E2 /* luaav_audio.cpp in Sources */,
+				94ED1DC31877D35B00A213E2 /* luaav_audio_jit.cpp in Sources */,
+				94ED1DC41877D35B00A213E2 /* luaav_audio_reverb.cpp in Sources */,
+				94ED1DC51877D35B00A213E2 /* luaav_audio_soundfile.cpp in Sources */,
+				94ED1DC61877D35B00A213E2 /* luaav_doc.h in Sources */,
+				94ED1DC71877D35B00A213E2 /* luaav_internal_util.h in Sources */,
+				94ED1DC81877D35B00A213E2 /* luaav_midi.cpp in Sources */,
+				94ED1DC91877D35B00A213E2 /* luaav_osc.cpp in Sources */,
+				94ED1DCA1877D35B00A213E2 /* luaav_revision.h in Sources */,
+				94ED1DCB1877D35B00A213E2 /* luaav_scheduler.cpp in Sources */,
+				94ED1DCC1877D35B00A213E2 /* RtError.h in Sources */,
+				94ED1DCD1877D35B00A213E2 /* RtMidi.cpp in Sources */,
+				94ED1DCE1877D35B00A213E2 /* RtMidi.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94678BE31878E8EC00B695F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94ED1DA01877C95800A213E2 /* luaav */;
+			targetProxy = 94678BE21878E8EC00B695F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94678BDF1878E8DC00B695F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/luajit/2.0.2/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lluajit-5.1",
+					"-pagezero_size",
+					10000,
+					"-image_base",
+					100000000,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94678BE01878E8DC00B695F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/luajit/2.0.2/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lluajit-5.1",
+					"-pagezero_size",
+					10000,
+					"-image_base",
+					100000000,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94ED1DA31877C95800A213E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "-lluajit-5.1";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/include $(SRCROOT)/include/Gamma $(SRCROOT)/osx/include /usr/local/include/luajit-2.0";
+			};
+			name = Debug;
+		};
+		94ED1DA41877C95800A213E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "-lluajit-5.1";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/include $(SRCROOT)/include/Gamma $(SRCROOT)/osx/include /usr/local/include/luajit-2.0";
+			};
+			name = Release;
+		};
+		94ED1DA61877C95800A213E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94ED1DA71877C95800A213E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94678BE11878E8DC00B695F2 /* Build configuration list for PBXNativeTarget "luaav-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94678BDF1878E8DC00B695F2 /* Debug */,
+				94678BE01878E8DC00B695F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ED1D9C1877C95800A213E2 /* Build configuration list for PBXProject "luaav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED1DA31877C95800A213E2 /* Debug */,
+				94ED1DA41877C95800A213E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ED1DA51877C95800A213E2 /* Build configuration list for PBXNativeTarget "luaav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED1DA61877C95800A213E2 /* Debug */,
+				94ED1DA71877C95800A213E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94ED1D991877C95800A213E2 /* Project object */;
+}
